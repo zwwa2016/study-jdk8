@@ -27,10 +27,14 @@ Java 1.8 新特性
 
 三、Lambda表达式
    3.1.Lambda表达式实际本质是匿名内部类，故lambda表达式中引用的变量其实默认加了final
-   3.2.对于函数式接口均可以使用lambda表达式来写实现类，这样的实现类不用显式new出来，而是在lambda表达式运行时实例化出来
+   3.2.对于函数式接口均可以使用lambda表达式来写实现类，这样的实现类不用创建，而是在lambda表达式运行时实例化出来
 
    3.3lambda表达式的相关测试可见Main.java中的
    3.3.1.基础测试：testLambdaBasicUse();
    3.3.2.简化写法测试：testLambdaBasicUseShort();
    3.3.3 一个参数无返回：testLambdaBasicUseWithOneParam()；
    3.3.4 无参无返回：testLambdaBasicUseWithoutParam();
+
+
+四、方法引用
+
