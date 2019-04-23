@@ -37,4 +37,8 @@ Java 1.8 新特性
 
 
 四、方法引用
-
+   基本语法::
+   4.1构造方法引用:参见例子 testConstructMethodRef
+   4.2静态方法引用:参见例子 testStaticMethodRef
+   4.3实例方法引用:参见例子 testNormalMethodRef
+   需特别说明的是。实例方法的引用需要借助于Function<T,R>接口，其中T表示参数，R表示返回值
